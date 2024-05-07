@@ -1,0 +1,10 @@
+i have an issue in git. i have two similiar repos. repo_1 and repo_2. in repo_2 : I have deleted two folders and its files called d1,d2 and its files d1f1,d1f2 of d1 folder and d2f1,d2f2 of d2 folder. Now I copied same files folders from repo_1. will it show modifictaion in git\
+
+
+git config core.autocrlf
+
+
+git config --global core.autocrlf true
+git config --global core.autocrlf input
+git config core.fileMode false
+git reset --hard
